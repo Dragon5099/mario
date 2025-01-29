@@ -564,7 +564,7 @@ function drawScoreBox() {
 }
 
 function drawTopMiddleBox() {
-  const text = 'تابع قناة مدرسة الذكاء الاصطناعي على يوتيوب';
+  const text = 'تابع قناة Dragon Gaming Master';
   const textWidth = ctx.measureText(text).width;
 
   const boxWidth = textWidth + 20; // Add some padding
@@ -674,7 +674,7 @@ canvas.addEventListener('click', (event) => {
   }
 
   // Check if the top middle box is clicked
-  const text = 'تابع قناة مدرسة الذكاء الاصطناعي على يوتيوب';
+  const text = 'تابع قناة Dragon Gaming Master';
   const textWidth = ctx.measureText(text).width;
   const boxWidth = textWidth + 20;
   const boxX = (canvas.width - boxWidth) / 2;
@@ -687,6 +687,6 @@ canvas.addEventListener('click', (event) => {
     y >= boxY &&
     y <= boxY + boxHeight
   ) {
-    window.open('https://youtube.com/@arabianAiSchool/', '_blank');
+    window.open('https://www.youtube.com/@Dragon_Gaming_Master/', '_blank');
   }
 });
